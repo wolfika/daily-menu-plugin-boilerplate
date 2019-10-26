@@ -12,8 +12,8 @@
   "engines": {
     "node": ">=12"
   },
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "lint": "eslint src/**/*.ts",
@@ -22,6 +22,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@types/got": "^9.6.7",
     "@types/jest": "^24.0.20",
     "@types/node": "^12.11.7",
     "@typescript-eslint/eslint-plugin": "^2.5.0",
@@ -30,6 +31,7 @@
     "eslint": "^6.6.0",
     "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-prettier": "^3.1.1",
+    "got": "^9.6.0",
     "jest": "^24.9.0",
     "prettier": "^1.18.2",
     "ts-jest": "^24.1.0",
